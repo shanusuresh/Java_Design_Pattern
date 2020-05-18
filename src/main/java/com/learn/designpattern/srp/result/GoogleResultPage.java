@@ -1,9 +1,7 @@
-package com.learn.designpattern.srp.pages;
+package com.learn.designpattern.srp.result;
 
-import com.learn.designpattern.srp.components.NavigationBar;
-import com.learn.designpattern.srp.components.ResulStat;
-import com.learn.designpattern.srp.components.SearchSuggestion;
-import com.learn.designpattern.srp.components.SearchWidget;
+import com.learn.designpattern.srp.common.SearchSuggestion;
+import com.learn.designpattern.srp.common.SearchWidget;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

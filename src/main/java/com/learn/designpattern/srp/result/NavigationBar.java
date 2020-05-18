@@ -1,6 +1,6 @@
-package com.learn.designpattern.srp.components;
+package com.learn.designpattern.srp.result;
 
-import com.learn.designpattern.srp.components.AbstractComponent;
+import com.learn.designpattern.srp.common.AbstractComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,8 +16,8 @@ public class NavigationBar extends AbstractComponent {
     @FindBy(linkText = "Videos")
     private WebElement videosLink;
 
-    @FindBy(linkText = "Images")
-    private WebElement imagesLink;
+    @FindBy(linkText = "All")
+    private WebElement allLink;
 
 
     public NavigationBar(WebDriver driver) {
@@ -32,8 +32,8 @@ public class NavigationBar extends AbstractComponent {
         this.videosLink.click();
     }
 
-    public void clickImages(){
-        this.imagesLink.click();
+    public void clickAll(){
+        this.allLink.click();
     }
 
     @Override

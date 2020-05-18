@@ -1,6 +1,6 @@
-package com.learn.designpattern.srp.components;
+package com.learn.designpattern.srp.result;
 
-import com.learn.designpattern.srp.components.AbstractComponent;
+import com.learn.designpattern.srp.common.AbstractComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
