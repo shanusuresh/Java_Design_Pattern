@@ -3,8 +3,11 @@ package com.learn.designpattern.factory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-public class GoogleHindiPage extends GoogleEnglishPage {
+/**
+ * Implementation class for Tamil language
+ * Extends GoogleEnglish to reuse the Webelements and implementation
+ */
+ class GoogleHindiPage extends GoogleEnglishPage {
 
     @FindBy(linkText = "हिन्दी")
     private WebElement langLink;

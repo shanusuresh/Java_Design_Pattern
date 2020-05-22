@@ -5,8 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
-
-public class GoogleTamilPage extends GoogleEnglishPage {
+/**
+ * Implementation class for Tamil language
+ * Extends GoogleEnglish to reuse the Webelements and implementation
+ */
+ class GoogleTamilPage extends GoogleEnglishPage {
 
     @FindBy(linkText = "தமிழ்")
     private WebElement langLink;
